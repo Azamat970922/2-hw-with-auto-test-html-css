@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+	box-sizing: border-box;
+    /* Свойства для сброса начальных стилей элементов */
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #303030;
+}
+
+header {
+    width: 1440px;
+    height: 70px;
+    background-color: #2965f1;
+    padding:23px 0;
+    /* Стили для хедера */
+}
+
+header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    /* Стили для текста в хедере IT-INCUBATOR */
+}
+
+.main-section {
+    width: 1440px;
+    background: #fafaff;
+    min-height: 100vh;
+    padding: 60px 0;
+    /* Стили для первой секции */
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 48px; 
+    padding: 60px 0 20px;
+    margin-bottom: 20px; 
+    /* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 18px;
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    max-width: 715px;
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    width: 1440px;
+    background-color: #FFFFFF;
+    padding: 100px 0;
+    /* Стили для второй секции */
+}
+
+select {
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 36px;
+    /* Стили для выпадающего списка */
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+    /* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {
+    font-weight: 400px;
+    font-size: 16px;
+    height: 57px;
+    
+    /* Стили для маркированного списка во второй секции */
+}
+
+.books-list {
+    font-weight: 400px;
+    font-size: 16px;
+    height: 57px;
+    padding-left: 20px;
+    /* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    font-size: 16px;
+    width: 475px;
+    height: 19px;
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    font-size: 16px;
+    width: 330px;
+    height: 36px;
+    border-radius: 4px;
+    /* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    background: #2965f1;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(255, 255, 255)
+    /* Стили для кнопки */
+}
+
+.line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    margin: 60px 0;
+    /* Стили для линии */
+}
+
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 300px;
+    height: 196px;
+    margin: 60px 0 100px;
+    /* Стили для таблицы */
+}
+
+th {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 15px;
+    /* Стили для ячеек таблицы */
+}
+
+td {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 12px 15px;
+}
+
+footer {
+    background: rgba(163, 167, 255, 0.3);
+    width: 1440px;
+    height: 70px;
+    padding: 26px 0;
+    /* Стили для футера */
+}
+
+.footer-link {
+    
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    padding: 26px 0;
+    text-decoration: none;
+    /* Стили для футера */
+}
