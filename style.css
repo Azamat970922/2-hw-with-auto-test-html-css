@@ -81,8 +81,8 @@ select {
     font-weight: 400px;
     font-size: 16px;
     height: 57px;
-    padding-left: 0 20px;
-    list-style-image:;
+    padding-left: 20px;
+    list-style-image: url("images/Vector.png");
     /* Стили для маркированного списка во второй секции */
 }
 
@@ -90,7 +90,7 @@ select {
     font-weight: 400px;
     font-size: 16px;
     height: 57px;
-    padding-left: 20px;
+    padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
